@@ -4,7 +4,7 @@
 | :---------------: |
 | ![lin-badge]      |
 
-[lin-badge]: https://travis-ci.org/nfactorial/playcanvas_server_.svg?branch=master "Travis build status"
+[lin-badge]: https://travis-ci.org/nfactorial/playcanvas_server.svg?branch=master "Travis build status"
 [lin-link]:  https://travis-ci.org/nfactorial/playcanvas_server "Travis build status"
 
 PlayCanvas Server
