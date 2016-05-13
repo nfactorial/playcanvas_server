@@ -1,0 +1,15 @@
+{
+    "name": "test1",
+    "main": "test_main",
+    "states": [
+        {
+            "name": "test_main",
+            "children": [
+                "child1"
+            ],
+            "systems": [
+                ""
+            ]
+        }
+    ]
+}

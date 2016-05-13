@@ -1,0 +1,22 @@
+{
+  "name": "playcanvas_server",
+  "version": "1.0.0",
+  "description": "Test server for working with playcanvas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --recursive"
+  },
+  "author": "nfactorial",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "sockjs": "^0.3.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfactorial/playcanvas_server.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
