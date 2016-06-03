@@ -23,8 +23,5 @@
 
 module.exports.Player = require('./lib/player');
 module.exports.Session = require('./lib/session');
-module.exports.GameState = require('./lib/game_state');
-module.exports.GameSystem = require('./lib/game_system');
 module.exports.GameServer = require('./lib/game_server');
 module.exports.ScriptServer = require('./lib/script_server');
-module.exports.SystemFactory = require('./lib/system_factory');

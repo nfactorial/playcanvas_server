@@ -1,6 +1,6 @@
 {
   "name": "@nfactorial/playcanvas_server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Test server for working with playcanvas.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,11 @@
   "author": "nfactorial",
   "license": "ISC",
   "dependencies": {
+    "@nfactorial/game_state_js": "0.0.3",
+    "aws-sdk": "^2.3.17",
     "express": "^4.13.4",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
     "sockjs": "^0.3.17"
   },
   "repository": {

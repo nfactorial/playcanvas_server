@@ -1,0 +1,9 @@
+{
+    "name": "session_test",
+    "main": "root",
+    "states": [
+        {
+            "name": "root"
+        }
+    ]
+}
