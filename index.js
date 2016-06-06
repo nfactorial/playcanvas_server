@@ -23,5 +23,6 @@
 
 module.exports.Player = require('./lib/player');
 module.exports.Session = require('./lib/session');
+module.exports.UpdateArgs = require('./lib/update_args');
 module.exports.GameServer = require('./lib/game_server');
 module.exports.ScriptServer = require('./lib/script_server');
