@@ -78,3 +78,38 @@ above example) the file 'myscript.js' would be located at
 './development/scripts/myscript.js'.
 
 Script servers should only be used when running locally.
+
+Facebook Authentication
+=======================
+The game server makes use of passport.js and Facebook to allow support
+for user sign-user with Facebook. It then connects to Cognito on AWS to
+help manage user accounts. In-order to provide this support, you must
+provide a number of environment variables to configure the Facebook
+authentication.
+
+The settings for these variables should not be stored in version
+control for security reasons.
+
+FACEBOOK_APP_ID
+Set to the application ID assigned to your facebook application.
+
+FACEBOOK_APP_SECRET
+Set to the application secret code assigned to your Facebook application. 
+
+FACEBOOK_CALLBACK_URL
+The URL to be invoked by Facebook once sign-in has completed.
+
+AWS_ACCOUNT_ID
+The ID of the AWS account to be used by the server.
+
+AWS_REGION
+The region which contains your Cognito identity pool.
+
+AWS_IAM_ROLE_ARN
+The IAM role to be used by the server.
+
+AWS_COGNITO_IDENTITY_POOL_ID;
+The identifier associated with the cognito identity pool to be used.
+This value can be obtained from Cognito within the AWS console.
+
+Facebook sign-in can be disabled by.... [TODO!]
