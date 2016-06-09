@@ -51,6 +51,10 @@ game.run();
 ```
 By default, the game server will listen on port 2000. You may change
 this by supplying the port number as a parameter to the run method.
+
+The GameServer object uses express to manage the HTTP requests, you may
+add your own routes to the express application via the 'expressServer'
+variable of the GameServer instance.
  
 Script Server
 =============
@@ -94,7 +98,9 @@ FACEBOOK_APP_ID
 Set to the application ID assigned to your facebook application.
 
 FACEBOOK_APP_SECRET
-Set to the application secret code assigned to your Facebook application. 
+Set to the application secret code assigned to your Facebook application.
+For security reasons, you should only use the app secret on the server
+side and it should not be present anywhere else. 
 
 FACEBOOK_CALLBACK_URL
 The URL to be invoked by Facebook once sign-in has completed.
@@ -111,5 +117,12 @@ The IAM role to be used by the server.
 AWS_COGNITO_IDENTITY_POOL_ID;
 The identifier associated with the cognito identity pool to be used.
 This value can be obtained from Cognito within the AWS console.
+
+When facebook completes the authentication process, it redirects the
+browser to a 'success' page. This module renders a template HTML file
+in response and sends it to the user. The template file should reside
+in the projects './views' folder. During rendering the template file
+will be supplied with a variable called 'user' which contains the JSON
+description of the logged in user.
 
 Facebook sign-in can be disabled by.... [TODO!]
