@@ -1,6 +1,6 @@
 {
   "name": "@nfactorial/playcanvas_server",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "description": "Test server for working with playcanvas.",
   "main": "index.js",
   "scripts": {

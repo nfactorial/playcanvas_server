@@ -22,7 +22,8 @@ const AuthService = require('../../../lib/aws/cognito/auth_service');
 describe('aws/auth_service', function() {
     it('Should be empty when constructed', function() {
         const server = express();
+        const authService = new AuthService();
 
-        AuthService.configure(server);
+        authService.configure(server);
     });
 });
