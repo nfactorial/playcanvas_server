@@ -1,24 +1,24 @@
 {
   "name": "@nfactorial/playcanvas_server",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "description": "Test server for working with playcanvas.",
-  "main": "index.js",
+  "mainpn": "index.js",
   "scripts": {
     "test": "mocha test --recursive"
   },
   "author": "nfactorial",
   "license": "ISC",
   "dependencies": {
-    "@nfactorial/game_state_js": "0.0.4",
-    "aws-sdk": "^2.3.17",
-    "body-parser": "^1.15.1",
+    "@nfactorial/game_state_js": "0.0.81",
+    "aws-sdk": "^2.4.2",
+    "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
-    "express": "^4.13.4",
+    "express": "^4.14.0",
     "express-session": "^1.13.0",
     "passport": "^0.3.2",
     "passport-facebook": "^2.1.1",
-    "pug": "^2.0.0-beta2",
-    "socket.io": "^1.4.6",
+    "pug": "^2.0.0-beta3",
+    "socket.io": "^1.4.8",
     "sockjs": "^0.3.17"
   },
   "repository": {
